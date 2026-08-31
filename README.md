@@ -6,11 +6,7 @@ The system combines **computer vision, robotic motion planning, ROS 1, MoveIt, a
 
 ## Demo
 
-<video
-src="media/demo.mp4"
-controls
-width="100%"> 
-</video>
+https://github.com/user-attachments/assets/290a432c-a3c1-4559-8888-627bd3fab728
 
 ## Overview
 
