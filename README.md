@@ -10,11 +10,11 @@ https://github.com/user-attachments/assets/290a432c-a3c1-4559-8888-627bd3fab728
 
 ## Overview
 
-This project enables a Franka Panda robot to play complete chess games against a human on a physical chessboard. The system uses a webcam to continuously observe the board and determines the human player's moves entirely through **computer vision**.
+This project enables a Franka Panda robot to play complete chess games against a human on a physical chessboard. The system uses a webcam to determine the human player's moves entirely through **computer vision**.
 
-A key feature of the system is that it does **not require a specific chessboard or specially marked pieces**. Instead, the vision pipeline analyzes the appearance and state of the board to determine which squares have changed, allowing the application to work with a wide variety of physical chessboards.
+A key feature of the system is that it does **not require a specific chessboard or specially marked pieces**. Instead, the vision pipeline analyses the appearance and state of the board to determine which squares have changed, allowing the application to work with a wide variety of physical chessboards.
 
-Once a human move is detected, it is sent to **Lichess**, where the game is managed and the robot's opponent can be either a chess engine or another human player.
+Once a human move is detected, it is sent to **Lichess**, where the game is managed allowing the robot to either play as a chess engine or to stream moves from another human, playing from their device.
 
 The robot then receives the opponent's move from Lichess and uses ROS and MoveIt to plan and execute the corresponding motion on the physical chessboard.
 
